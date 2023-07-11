@@ -1,4 +1,4 @@
-gopeed.hooks.onResolve(async function (ctx) {
+gopeed.events.onResolve(async function (ctx) {
   // parse repo release path from url, e.g. GopeedLab/gopeed/releases or GopeedLab/gopeed/releases/tag/v1.3.0
   let path = new URL(ctx.req.url).pathname.substring(1);
   let tag = path.split("/").pop();
