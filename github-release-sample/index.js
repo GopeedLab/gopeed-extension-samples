@@ -17,6 +17,7 @@ gopeed.hooks.onResolve(async function (ctx) {
       name: item.name,
       size: item.size,
       path: resName,
+      range: true,
       req: {
         url: item.browser_download_url,
       },

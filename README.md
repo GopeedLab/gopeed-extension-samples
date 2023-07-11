@@ -1,13 +1,14 @@
 <h1 align="center">
-Gopeed Extension Sample
+Gopeed Extension Samples
 </h1>
 
-This is a sample project for developing Gopeed extensions. You can use this sample to learn how to develop Gopeed extensions.
+[中文](/README_zh-CN.md) | [English](/README.md)
 
-## Introduction
+This repository contains multiple Gopeed extension project examples. You can learn how to develop Gopeed extensions through these examples, or directly install and use them through the installation url.
 
-This extension registers the `onResolve` event to parse all resource information in a `github release` download link and display it in the file list for selection.
+## Examples
 
-- Screenshot
-
-![](.img/example.gif)
+| Example                                                                             | Description                                             | Installation URL                                                                |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Github Contributor Avatars Download](/github-contributor-avatars-sample/README.md) | Used to parse and download all avatars of Github repo   | github.com/GopeedLab/gopeed-extension-samples#github-contributor-avatars-sample |
+| [Github Release Asset Download](/github-release-sample/README.md)                   | Used to parse and download all assets of Github release | github.com/GopeedLab/gopeed-extension-samples#github-release-sample             |
