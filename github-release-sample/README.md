@@ -11,10 +11,3 @@ The extension is written in native JavaScript and uses `fetch` to request the co
 - Screenshot
 
 ![](.img/example.gif)
-
-## Build
-
-```bash
-npm install
-npm run build
-```

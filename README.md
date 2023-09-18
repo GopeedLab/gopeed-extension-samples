@@ -8,7 +8,7 @@ This repository contains multiple Gopeed extension project examples. You can lea
 
 ## Examples
 
-| Example                                                                             | Description                                             | Installation URL                                                                |
+| Example                                                                             | Description                                             | Install URL                                                                |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [Github Contributor Avatars Download](/github-contributor-avatars-sample/README.md) | Used to parse and download all avatars of Github repo   | github.com/GopeedLab/gopeed-extension-samples#github-contributor-avatars-sample |
 | [Github Release Asset Download](/github-release-sample/README.md)                   | Used to parse and download all assets of Github release | github.com/GopeedLab/gopeed-extension-samples#github-release-sample             |
