@@ -1,0 +1,60 @@
+{
+  "name": "github-release",
+  "author": "gopeed",
+  "title": "Github Release",
+  "description": "Download github release assets",
+  "version": "1.0.0",
+  "homepage": "https://gopeed.com",
+  "repository": "https://github.com/GopeedLab/gopeed-extension-samples",
+  "installURL": "https://github.com/GopeedLab/gopeed-extension-samples#extension-test",
+  "scripts": [
+    {
+      "event": "onResolve",
+      "matches": [
+        "*://test.com/*"
+      ],
+      "entry": "index.js"
+    }
+  ],
+  "settings": [
+    {
+      "name": "s1",
+      "title": "S1",
+      "description": "Test string without default value",
+      "type": "string"
+    },
+    {
+      "name": "s2",
+      "title": "S2",
+      "description": "Test string with default value",
+      "type": "string",
+      "value": "test"
+    },
+    {
+      "name": "n1",
+      "title": "N1",
+      "description": "Test number without default value",
+      "type": "number"
+    },
+    {
+      "name": "n2",
+      "title": "N2",
+      "description": "Test number with default value",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "b1",
+      "title": "B1",
+      "description": "Test boolean without default value",
+      "type": "boolean"
+    },
+    {
+      "name": "b2",
+      "title": "B2",
+      "description": "Test boolean with default value",
+      "type": "boolean",
+      "value": true
+    }
+  ]
+}

@@ -20,6 +20,7 @@
     {
       "name": "ua",
       "title": "User-Agent",
+      "description": "HTTP User-Agent header",
       "type": "string"
     }
   ]

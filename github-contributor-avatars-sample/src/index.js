@@ -22,7 +22,6 @@ gopeed.events.onResolve(async function (ctx) {
       const name = $(this).attr("alt").substring(1) + ".jpg";
       return {
         name,
-        path: resName,
         req: {
           url,
         },
@@ -35,7 +34,6 @@ gopeed.events.onResolve(async function (ctx) {
 
   ctx.res = {
     name: resName,
-    range: false,
     files,
   };
 });

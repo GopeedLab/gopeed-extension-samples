@@ -16,8 +16,6 @@ gopeed.events.onResolve(async function (ctx) {
     files: data.assets.map((item) => ({
       name: item.name,
       size: item.size,
-      path: resName,
-      range: true,
       req: {
         url: item.browser_download_url,
       },
