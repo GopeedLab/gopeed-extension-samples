@@ -1,8 +1,8 @@
 {
-  "name": "github-release",
+  "name": "extension-test",
   "author": "gopeed",
-  "title": "Github Release",
-  "description": "Download github release assets",
+  "title": "Gopeed Extension Test",
+  "description": "Test extension settings and upgrade",
   "version": "1.0.0",
   "homepage": "https://gopeed.com",
   "repository": "https://github.com/GopeedLab/gopeed-extension-samples",
@@ -21,7 +21,8 @@
       "name": "s1",
       "title": "S1",
       "description": "Test string without default value",
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     {
       "name": "s2",
@@ -34,7 +35,8 @@
       "name": "n1",
       "title": "N1",
       "description": "Test number without default value",
-      "type": "number"
+      "type": "number",
+      "required": true
     },
     {
       "name": "n2",
@@ -47,7 +49,8 @@
       "name": "b1",
       "title": "B1",
       "description": "Test boolean without default value",
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     {
       "name": "b2",
