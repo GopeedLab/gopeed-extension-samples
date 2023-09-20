@@ -3,7 +3,7 @@
   "author": "gopeed",
   "title": "Gopeed Extension Test",
   "description": "Test extension settings and upgrade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://gopeed.com",
   "repository": "https://github.com/GopeedLab/gopeed-extension-samples",
   "installURL": "https://github.com/GopeedLab/gopeed-extension-samples#extension-test",
