@@ -32,6 +32,23 @@
       "value": "test"
     },
     {
+      "name": "s3",
+      "title": "S3",
+      "description": "Test string with options",
+      "type": "string",
+      "value": "test1",
+      "options": [
+        {
+          "label": "Test1",
+          "value": "test1"
+        },
+        {
+          "label": "Test2",
+          "value": "test2"
+        }
+      ]
+    },
+    {
       "name": "n1",
       "title": "N1",
       "description": "Test number without default value",
@@ -44,6 +61,23 @@
       "description": "Test number with default value",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "n3",
+      "title": "N3",
+      "description": "Test number with options",
+      "type": "number",
+      "value": 1,
+      "options": [
+        {
+          "label": "Test1",
+          "value": 1
+        },
+        {
+          "label": "Test2",
+          "value": 2
+        }
+      ]
     },
     {
       "name": "b1",
