@@ -1,3 +1,4 @@
+import gopeed from "gopeed";
 import * as cheerio from "cheerio";
 
 gopeed.events.onResolve(async function (ctx) {
