@@ -8,7 +8,11 @@ gopeed.events.onResolve(async function (ctx) {
     path += `/tags/${tag}`;
   }
   // fetch release info by github api
-  const resp = await fetch(`https://api.github.com/repos/${path}`);
+  const resp = await fetch(`https://api.github.com/repos/${path}`, {
+    headers: {
+      "User-Agent": ctx.settings.ua,
+    },
+  });
   const data = await resp.json();
   const resName = path.split("/")[1] + "-" + data.tag_name;
   ctx.res = {

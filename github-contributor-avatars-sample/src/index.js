@@ -14,7 +14,11 @@ gopeed.events.onResolve(async function (ctx) {
   const resName = repoPath.split("/")[1] + "-contributor-avatars";
 
   // fetch repo html
-  const resp = await fetch(`https://github.com/${repoPath}`);
+  const resp = await fetch(`https://github.com/${repoPath}`, {
+    headers: {
+      "User-Agent": ctx.settings.ua,
+    },
+  });
   const html = await resp.text();
   const $ = cheerio.load(html);
   const files = $("img.avatar")
