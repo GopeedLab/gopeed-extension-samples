@@ -20,12 +20,14 @@
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "gopeed": "^1.0.4",
+    "gopeed": "^1.0.8",
     "prettier": "^3.0.3",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "crypto-browserify-pure": "^1.0.0",
+    "node-polyfill-webpack-plugin": "^2.0.1"
   }
 }

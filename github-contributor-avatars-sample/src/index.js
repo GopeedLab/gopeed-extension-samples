@@ -10,6 +10,8 @@ gopeed.events.onResolve(async function (ctx) {
   }
   // parse repo path from url, e.g. GopeedLab/gopeed
   const repoPath = matched[1];
+  gopeed.logger.debug('repoPath', repoPath);
+
   // generate resource name, e.g. gopeed-contributor-avatars
   const resName = repoPath.split('/')[1] + '-contributor-avatars';
 
