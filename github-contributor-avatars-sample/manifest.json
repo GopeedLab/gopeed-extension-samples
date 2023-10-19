@@ -13,9 +13,11 @@
   "scripts": [
     {
       "event": "onResolve",
-      "matches": [
-        "*://github.com/*/contributors"
-      ],
+      "match": {
+        "urls": [
+          "*://github.com/*/contributors"
+        ]
+      },
       "entry": "dist/index.js"
     }
   ],
