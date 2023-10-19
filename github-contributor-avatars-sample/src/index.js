@@ -18,7 +18,7 @@ gopeed.events.onResolve(async function (ctx) {
   // fetch repo html
   const resp = await fetch(`https://github.com/${repoPath}`, {
     headers: {
-      'User-Agent': ctx.settings.ua,
+      'User-Agent': gopeed.settings.ua,
     },
   });
   const html = await resp.text();

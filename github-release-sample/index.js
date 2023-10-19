@@ -10,7 +10,7 @@ gopeed.events.onResolve(async function (ctx) {
   // fetch release info by github api
   const resp = await fetch(`https://api.github.com/repos/${path}`, {
     headers: {
-      "User-Agent": ctx.settings.ua,
+      "User-Agent": gopeed.settings.ua,
     },
   });
   const data = await resp.json();
