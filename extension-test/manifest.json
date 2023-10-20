@@ -12,9 +12,11 @@
   "scripts": [
     {
       "event": "onResolve",
-      "matches": [
-        "*://test.com/*"
-      ],
+      "match": {
+        "urls": [
+          "*://test.com/*"
+        ]
+      },
       "entry": "index.js"
     }
   ],
