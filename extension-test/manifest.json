@@ -3,7 +3,7 @@
   "author": "gopeed",
   "title": "Gopeed Extension Test",
   "description": "Test extension settings and upgrade",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://gopeed.com",
   "repository": {
     "url": "https://github.com/GopeedLab/gopeed-extension-samples",
@@ -96,6 +96,11 @@
       "description": "Test boolean with default value",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "b3",
+      "title": "B3",
+      "type": "string"
     }
   ]
 }
