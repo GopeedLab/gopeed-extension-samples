@@ -1,11 +1,13 @@
 gopeed.events.onResolve(async function (ctx) {
   ctx.res = {
     name: "test",
-    files: data.assets.map((item) => ({
-      name: "test.txt",
-      req: {
-        url: item.browser_download_url,
+    files: [
+      {
+        name: "index.html",
+        req: {
+          url: "https://github.com",
+        },
       },
-    })),
+    ],
   };
 });
