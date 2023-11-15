@@ -6,6 +6,10 @@ Gopeed Extension Samples
 
 This repository contains multiple Gopeed extension project examples. You can learn how to develop Gopeed extensions through these examples, or directly install and use them through the installation url.
 
+## Development Documentation
+
+Please refer to: [https://docs.gopeed.com/dev-extension.html](https://docs.gopeed.com/dev-extension.html)
+
 ## Examples
 
 | Example                                                                             | Description                                             | Install URL                                                                |
