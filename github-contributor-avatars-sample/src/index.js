@@ -5,7 +5,7 @@ gopeed.events.onResolve(async function (ctx) {
   const reg = /^(.*)\/contributors$/;
   const matched = path.match(reg);
   if (!matched) {
-    return;
+    throw new MessageError('Not a valid github contributors url');
   }
   // parse repo path from url, e.g. GopeedLab/gopeed
   const repoPath = matched[1];
