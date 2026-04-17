@@ -1,0 +1,23 @@
+{
+  "name": "webview-probe",
+  "author": "gopeed",
+  "title": "WebView Sample",
+  "description": "Open a target page through gopeed.runtime.webview and download a probe snapshot as JSON",
+  "version": "1.0.0",
+  "homepage": "https://gopeed.com",
+  "repository": {
+    "url": "https://github.com/GopeedLab/gopeed-extension-samples",
+    "directory": "webview-sample"
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": [
+          "*://webview-probe.local/*"
+        ]
+      },
+      "entry": "index.js"
+    }
+  ]
+}

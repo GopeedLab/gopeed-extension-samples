@@ -1,0 +1,23 @@
+{
+  "name": "gblob-sample",
+  "author": "gopeed",
+  "title": "GBlob Sample",
+  "description": "Demonstrates Blob, ReadableStream, and resumable gblob downloads",
+  "version": "1.0.0",
+  "homepage": "https://gopeed.com",
+  "repository": {
+    "url": "https://github.com/GopeedLab/gopeed-extension-samples",
+    "directory": "gblob-sample"
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": [
+          "*://gblob.local/*"
+        ]
+      },
+      "entry": "index.js"
+    }
+  ]
+}

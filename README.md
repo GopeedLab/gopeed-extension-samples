@@ -12,7 +12,9 @@ Please refer to: [https://docs.gopeed.com/dev-extension.html](https://docs.gopee
 
 ## Examples
 
-| Example                                                                             | Description                                             | Install URL                                                                |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [Github Contributor Avatars Download](/github-contributor-avatars-sample/README.md) | Used to parse and download all avatars of Github repo   | github.com/GopeedLab/gopeed-extension-samples#github-contributor-avatars-sample |
-| [Github Release Asset Download](/github-release-sample/README.md)                   | Used to parse and download all assets of Github release | github.com/GopeedLab/gopeed-extension-samples#github-release-sample             |
+| Example | Description | Install URL |
+| --- | --- | --- |
+| [Github Contributor Avatars Download](/github-contributor-avatars-sample/README.md) | Used to parse and download all avatars of Github repo | github.com/GopeedLab/gopeed-extension-samples#github-contributor-avatars-sample |
+| [Github Release Asset Download](/github-release-sample/README.md) | Used to parse and download all assets of Github release | github.com/GopeedLab/gopeed-extension-samples#github-release-sample |
+| [WebView Sample](/webview-sample/README.md) | Used to inspect a target page through `gopeed.runtime.webview` and export the probe result as JSON | github.com/GopeedLab/gopeed-extension-samples#webview-sample |
+| [GBlob Sample](/gblob-sample/README.md) | Used to demonstrate in-memory Blob, ReadableStream, HTTP body proxy, and resumable gblob downloads | github.com/GopeedLab/gopeed-extension-samples#gblob-sample |

@@ -12,7 +12,9 @@ Gopeed 扩展示例集
 
 ## 示例集
 
-| 示例                                                                        | 描述                                     | 安装链接                                                                        |
-| --------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------- |
+| 示例 | 描述 | 安装链接 |
+| --- | --- | --- |
 | [github 贡献者头像下载](/github-contributor-avatars-sample/README_zh-CN.md) | 用于解析下载 github 项目所有贡献者的头像 | github.com/GopeedLab/gopeed-extension-samples#github-contributor-avatars-sample |
-| [github release 资源下载](/github-release-sample/README_zh-CN.md)           | 用于解析下载 github release 所有的资源   | github.com/GopeedLab/gopeed-extension-samples#github-release-sample             |
+| [github release 资源下载](/github-release-sample/README_zh-CN.md) | 用于解析下载 github release 所有的资源 | github.com/GopeedLab/gopeed-extension-samples#github-release-sample |
+| [WebView 示例](/webview-sample/README_zh-CN.md) | 用于通过 `gopeed.runtime.webview` 探测目标页面并导出 JSON 结果 | github.com/GopeedLab/gopeed-extension-samples#webview-sample |
+| [GBlob 示例](/gblob-sample/README_zh-CN.md) | 用于演示基于内存 Blob、ReadableStream、HTTP 响应体代理和断点续传的 gblob 下载 | github.com/GopeedLab/gopeed-extension-samples#gblob-sample |
