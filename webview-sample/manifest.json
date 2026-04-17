@@ -14,7 +14,7 @@
       "event": "onResolve",
       "match": {
         "urls": [
-          "*://webview-probe.local/*"
+          "*://webview.local/*"
         ]
       },
       "entry": "index.js"

@@ -8,6 +8,7 @@ function getTarget(rawUrl) {
 }
 
 gopeed.events.onResolve(async function (ctx) {
+  gopeed.logger.info("Received request:", ctx.req.url);
   if (!gopeed.runtime.webview || !gopeed.runtime.webview.isAvailable()) {
     throw new MessageError("webview is unavailable");
   }
