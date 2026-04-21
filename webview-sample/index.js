@@ -22,8 +22,10 @@ gopeed.events.onResolve(async function (ctx) {
   });
 
   try {
-    await page.navigate(target, { timeoutMS: 30000 });
-    await page.waitForLoad({ timeoutMS: 30000 });
+    await page.goto("https://example.com", {
+      waitUntil: "domcontentloaded",
+      timeoutMs: 15000,
+    });
 
     const snapshot = await page.execute(() => ({
       title: document.title || "",
