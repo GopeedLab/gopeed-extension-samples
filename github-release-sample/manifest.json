@@ -3,7 +3,8 @@
   "author": "gopeed",
   "title": "Github Release",
   "description": "Download github release assets",
-  "version": "1.0.0",
+  "icon": "icon.png",
+  "version": "1.1.0",
   "homepage": "https://gopeed.com",
   "repository": {
     "url": "https://github.com/GopeedLab/gopeed-extension-samples",
@@ -14,6 +15,7 @@
       "event": "onResolve",
       "match": {
         "urls": [
+          "*://github.com/*/releases",
           "*://github.com/*/releases/*"
         ]
       },
@@ -27,6 +29,13 @@
       "description": "HTTP User-Agent header",
       "type": "string",
       "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47"
+    },
+    {
+      "name": "token",
+      "title": "GitHub API Token",
+      "description": "Optional personal access token to increase the GitHub API rate limit. Leave empty for anonymous requests.",
+      "type": "string",
+      "value": ""
     }
   ]
 }
